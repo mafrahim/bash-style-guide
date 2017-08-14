@@ -365,6 +365,9 @@ rm file       # if cd fails where am I? what am I deleting?
 # right
 cd /some/path || exit
 rm file
+
+# also right
+cd /some/path && rm file
 ```
 
 ### `set -e`
